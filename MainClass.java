@@ -10,4 +10,12 @@ public class MainClass {
         String name = "Rougekid";
         System.out.println("Welcome to the java playzone " + name);
     }
+
+    public static void Increment() {
+        int val = 0;
+        for(int i = 0; i < 11; i++) {
+            val = i;
+            System.out.println();
+        }
+    }
 }
