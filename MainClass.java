@@ -4,6 +4,7 @@ public class MainClass {
         System.out.println(x);
         System.out.println("This is fun");
         greetings();
+        Increment();
     }
 
     public static void greetings() {
@@ -15,7 +16,7 @@ public class MainClass {
         int val = 0;
         for(int i = 0; i < 11; i++) {
             val = i;
-            System.out.println();
+            System.out.println(val);
         }
     }
 }
