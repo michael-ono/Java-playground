@@ -1,3 +1,4 @@
+package src;
 public class SampleClass {
     public static void main(String[] args) {
         String x = "Hello World";
