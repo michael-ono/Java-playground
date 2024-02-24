@@ -6,11 +6,5 @@ public class App {
 
         MainFrame myframe = new MainFrame();
         myframe.init();
-        // greetUser();
     }
-
-    public static void greetUser () {
-        System.out.println("Hello Mike");
-    }
-
 } 
