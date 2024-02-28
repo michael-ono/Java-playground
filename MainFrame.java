@@ -4,13 +4,16 @@ import java.awt.Dimension;
 import java.awt.Font;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
 public class MainFrame extends JFrame {
-    final private Font mainFont = new Font("Segoe print", Font.BOLD, 18)
+    final private Font mainFont = new Font("Segoe print", Font.BOLD, 18);
     public void init() {
         // Form Panel //
+        JLabel lbFirstName = new JLabel("First Name");
+        lbFirstName.setFont(mainFont);
 
 
         
