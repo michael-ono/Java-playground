@@ -6,10 +6,13 @@ import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
 public class MainFrame extends JFrame {
     final private Font mainFont = new Font("Segoe print", Font.BOLD, 18);
+    JTextField tfFirstName;
+    
     public void init() {
         // Form Panel //
         JLabel lbFirstName = new JLabel("First Name");
