@@ -1,17 +1,22 @@
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
 public class MainFrame extends JFrame {
+    final private Font mainFont = new Font("Segoe print", Font.BOLD, 18)
     public void init() {
+        // Form Panel //
+
+
+        
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BorderLayout());
         mainPanel.setBackground(new Color(128, 128, 225));
-
-
 
 
         setTitle("Welcome");
