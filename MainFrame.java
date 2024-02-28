@@ -1,9 +1,15 @@
+import java.awt.BorderLayout;
 import java.awt.Dimension;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
 public class MainFrame extends JFrame {
     public void init() {
+        JPanel mainPanel = new JPanel();
+        mainPanel.setLayout(new BorderLayout());
+
+
         setTitle("Welcome");
         setSize(450, 300);
         setMinimumSize(new Dimension(300, 400));
