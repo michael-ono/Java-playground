@@ -20,4 +20,6 @@ public class SampleClass {
             System.out.println(val);
         }
     }
+
+    public static void random() {}
 }
