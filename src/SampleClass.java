@@ -21,5 +21,7 @@ public class SampleClass {
         }
     }
 
-    public static void random() {}
+    public static void random() {
+        int num;
+    }
 }
