@@ -23,5 +23,6 @@ public class SampleClass {
 
     public static void random() {
         int num;
+        String animal;
     }
 }
