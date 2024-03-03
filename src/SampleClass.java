@@ -25,5 +25,6 @@ public class SampleClass {
         int num;
         String animal = "Dog";
         String car = "Honda";
+        String full_name = "Mike Hunter";
     }
 }
