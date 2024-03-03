@@ -27,4 +27,8 @@ public class SampleClass {
         String car = "Honda";
         String full_name = "Mike Hunter";
     }
+
+    public static void main join() {
+        
+    }
 }
