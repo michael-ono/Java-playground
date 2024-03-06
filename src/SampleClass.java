@@ -31,6 +31,7 @@ public class SampleClass {
     public static void main join() {
         String x = "Nike";
         int y = 20;
+        int x = 62;
         
     }
 }
