@@ -4,8 +4,9 @@ public class SampleClass {
         String x = "Hello World";
         System.out.println(x);
         System.out.println("This is fun");
-        greetings();
-        Increment();
+        // greetings();
+        // Increment();
+        okay();
     }
 
     public static void greetings() {
@@ -28,10 +29,11 @@ public class SampleClass {
         String full_name = "Mike Hunter";
     }
 
-    public static void main() {
+    public static void okay() {
         String x = "Mike";
         int y = 20;
         int z = 62;
-        
+        String food = "taco";
+        System.out.println(x + " is a boy who is " + y + " and likes " + food);
     }
 }
