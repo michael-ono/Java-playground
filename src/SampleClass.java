@@ -28,10 +28,10 @@ public class SampleClass {
         String full_name = "Mike Hunter";
     }
 
-    public static void main join() {
-        String x = "Nike";
+    public static void main() {
+        String x = "Mike";
         int y = 20;
-        int x = 62;
+        int z = 62;
         
     }
 }
