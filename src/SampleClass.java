@@ -33,6 +33,7 @@ public class SampleClass {
         String x = "Mike";
         int y = 20;
         int z = 62;
+        boolean isColdToday = true;
         String food = "spaghetti";
         System.out.println(x + " is a boy who is " + y + " and likes " + food);
     }
