@@ -36,6 +36,7 @@ public class SampleClass {
         System.out.println(y + z);
         boolean isColdToday = true;
         String food = "spaghetti";
+        char sex = 'm';
         System.out.println(x + " is a boy who is " + y + " and likes " + food);
     }
 }
