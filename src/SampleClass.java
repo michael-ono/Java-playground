@@ -24,7 +24,7 @@ public class SampleClass {
 
     public static void random() {
         int num;
-        String animal = "Dog";
+        String animal = "Dogg";
         String car = "Honda";
         String full_name = "Mike Hunter";
     }
